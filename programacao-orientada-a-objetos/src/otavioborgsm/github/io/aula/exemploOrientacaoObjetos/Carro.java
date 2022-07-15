@@ -1,6 +1,6 @@
-package otavioborgsm.github.io;
+package otavioborgsm.github.io.aula.exemploOrientacaoObjetos;
 
-public class Carro{
+public class Carro extends Veiculo {
 
     String cor;
     String modelo;
@@ -40,7 +40,7 @@ public class Carro{
         this.capacidadeTanque = capacidadeTanque;
     }
 
-    double totalValorTanque(double valorCombustivel){
+    public double totalValorTanque(double valorCombustivel){
         return capacidadeTanque * valorCombustivel;
     }
 
