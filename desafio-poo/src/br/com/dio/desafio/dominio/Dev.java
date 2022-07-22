@@ -43,6 +43,9 @@ public class Dev {
     }
 
     public void setNome(String nome) {
+        if(nome == null || nome.isEmpty()){
+            throw new RuntimeException("Nome do Dev não pode ser nulo ou vazio");
+        }
         this.nome = nome;
     }
 
