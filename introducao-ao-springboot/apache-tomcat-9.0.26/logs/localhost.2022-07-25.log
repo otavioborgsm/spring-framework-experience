@@ -1,4 +1,0 @@
-25-Jul-2022 19:40:22.890 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
-25-Jul-2022 19:40:23.996 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
-25-Jul-2022 19:40:23.997 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
-25-Jul-2022 19:40:23.999 INFORMAÇÕES [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@74130456')
