@@ -75,9 +75,13 @@ public class ClienteServiceImpl implements ClienteService {
 			enderecoRepository.save(novoEndereco);
 			return novoEndereco;
 		});
-		cliente.setEndereco(endereco);
+
+		Cliente clienteSalvo = Cliente.builder()
+				.nome(cliente.getNome())
+				.endereco(endereco)
+				.build();
 		// Inserir Cliente, vinculando o Endereco (novo ou existente).
-		clienteRepository.save(cliente);
+		clienteRepository.save(clienteSalvo);
 	}
 
 }
